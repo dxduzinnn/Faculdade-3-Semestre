@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Gastronomico</title>
+</head>
+<body>
+    <header>
+        <h1>reserva</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="locais.html">locais</a></li>
+            <li><a href="reserva.html">reservas</a></li>
+            
+        </ul>
+    </nav>
+
+    <main>
+        <form action="#" method="post"><fieldset></form>
+            <legend> Dados do Cliente</legend>
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" id="name" name="nome" required pattern="[A-Za-z\s]+"title="apenas letras e espaços">
+            </p>
+
+            <p>
+                <label for="Email">Email:</label>
+                <input type="text" id="email" name="email" required>
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados da reserva</legend>
+            <p>
+                <label for="tipo">Opção:</label>
+                <select id="tipo" name="tipo"></select>
+                <option value="Almoço">Almoço</option>
+                <option value="jantar">Jantar</option>
+                <option value="Lanche">lanche</option>
+            </p>
+            <p>
+                tipo de reserva: <br>
+                <input type="radio" id="individual" name="grupo" value="individual">
+                <label for="individual">individual</label><br>
+
+                <input type="radio" id="grupo" name="grupo" value="grupo">
+                <label for="grupo">grupo</label>
+            </p>
+
+            <p>
+                <input type="checkbox" id="confirma" name="confirma" required>
+                <label for="confirma">Confirmo que os dados são ficticios.</label>
+            </p>
+            
+            <p>
+                <label for="obs">Observação</label><br>
+                <textarea id="obs" name="obs" rows="4"cols="30"></textarea>
+            </p>
+
+        </fieldset>
+
+        <button>enviar reserva</button> 
+    </main>
+    
+</body>
+</html>
