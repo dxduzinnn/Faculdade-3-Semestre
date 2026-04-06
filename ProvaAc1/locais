@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>locais</title>
+</head>
+<body>
+    <header>
+        <h1>Locais</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="locais.html">locais</a></li>
+            <li><a href="reserva.html">reservas</a></li>
+            
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Top 5 escolhas do estudante</h2>
+            <ol>
+                <li>Caminhoneta</li>
+                <li>Pizaaria </li>
+                <li><strong>pizza hut</strong></li>
+                <li>BK</li>
+                <li>Espeto de ouro</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>categorias populares</h2>
+            <ul>
+                <li>marmitex</li>
+                <ul>
+                    <li>Marmitex P</li>
+                    <li>Marmitex M</li>
+                    <li>Marmitex G</li>
+                </ul>
+            </ul>
+            <ul>
+                <li>Xtudo</li>
+                <li>coxinha da real</li>
+            </ul>
+        </section>
+
+        <p>comemos quase todos os dias no <abbr title="Restaurante Universiatrio">RU da facul.</abbr></p>
+        
+        <aside>
+            <p>uma dica de ouro, o lugar lota dps das 12h, chegue as 11:50.</p>
+        </aside>
+    
+    </main>
+
+    
+</body>
+</html>
